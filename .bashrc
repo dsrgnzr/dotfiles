@@ -10,7 +10,6 @@ PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
 shopt -s autocd
 
 alias vi=nvim
-#alias ls='ls --color -a'
 alias pac='sudo pacman -S'
 alias pacr='sudo pacman -Rns'
 alias pacr!='sudo pacman -Rscun'

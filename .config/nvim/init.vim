@@ -11,6 +11,7 @@ let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
 let g:python3_host_prog  = '/usr/bin/python3'
+let mapleader=" "
 
 inoremap jkl <ESC>
 map <silent> <F9> :Lexplore<CR>
@@ -25,6 +26,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'dbeniamine/cheat.sh-vim'
 call plug#end()
 
 colorscheme iceberg
