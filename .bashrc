@@ -21,6 +21,8 @@ alias paci='pacman -Si'
 alias mntsd='sudo mount /dev/mmcblk0p1 /mnt/sd'
 alias umntsd='sudo umount /dev/mmcblk0p1'
 alias rg='ranger'
+alias npush="cd /home/user/notes && git add .; git commit -a -m 'from linux'; git push; cd ~"
+alias npull='cd /home/user/notes && git pull; cd ~'
 
 export VISUAL=nvim
 export EDITOR="$VISUAL"
