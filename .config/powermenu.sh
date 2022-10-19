@@ -3,9 +3,9 @@
 function powermenu {
 	options="Shutdown\nRestart\nSleep"
 	selected=$(echo -e $options | dmenu)
-	if [[ $selected = "Shutdown" ]]; then
+	if [[ $selected = "Off" ]]; then
 		loginctl poweroff
-	elif [[ $selected = "Restart" ]]; then
+	elif [[ $selected = "Reboot" ]]; then
 		loginctl reboot
 	elif [[ $selected = "Sleep" ]]; then
 		loginctl suspend-then-hibernate
