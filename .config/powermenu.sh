@@ -1,13 +1,13 @@
 #!/bin/bash
 
 function powermenu {
-	options="Shutdown\nRestart\nSleep"
+	options="off\nreboot\nsleep"
 	selected=$(echo -e $options | dmenu)
-	if [[ $selected = "Off" ]]; then
+	if [[ $selected = "off" ]]; then
 		loginctl poweroff
-	elif [[ $selected = "Reboot" ]]; then
+	elif [[ $selected = "reboot" ]]; then
 		loginctl reboot
-	elif [[ $selected = "Sleep" ]]; then
+	elif [[ $selected = "sleep" ]]; then
 		loginctl suspend-then-hibernate
 	fi
 }
