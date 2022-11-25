@@ -24,7 +24,8 @@ the spiral layout is set as default
 - [scrollback](https://st.suckless.org/patches/scrollback/) patches (ringbufer, mouse altscreen)
 
 **st**: 
-- [scrollback](https://st.suckless.org/patches/scrollback/) with ring buffer
+- [scrollback](https://st.suckless.org/patches/scrollback/) patch with ring buffer
+- [anysize](https://st.suckless.org/patches/anysize/) patch
 - paper dark color scheme
 - [workingdir](https://st.suckless.org/patches/workingdir/) patch to support explore-from-dmenu
 
