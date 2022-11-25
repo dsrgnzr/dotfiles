@@ -21,10 +21,9 @@ the spiral layout is set as default
 - [explore-with-dmenu](https://github.com/langenhagen/explore-with-dmenu) script
 
   (to support ranger: in `/usr/share/applications/ranger.desktop`, set the parameter "`Exec=st -e ranger`")
-- [scrollback](https://st.suckless.org/patches/scrollback/) patches (ringbufer, mouse altscreen)
 
 **st**: 
-- [scrollback](https://st.suckless.org/patches/scrollback/) patch with ring buffer
+- [scrollback](https://st.suckless.org/patches/scrollback/) patches (ringbufer, mouse altscreen)
 - [anysize](https://st.suckless.org/patches/anysize/) patch
 - paper dark color scheme
 - [workingdir](https://st.suckless.org/patches/workingdir/) patch to support explore-from-dmenu
